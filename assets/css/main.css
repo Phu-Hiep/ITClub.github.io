@@ -33,7 +33,7 @@
     padding: 0 23px;
     background-color: var(--primary-color);
     border-radius: 3px;
-    box-shadow: 0 0 3px #cacaca;
+    box-shadow: 0 0 4px #cacaca;
     display: none;
 }
 
@@ -83,7 +83,7 @@
 .header .header__nav .nav__home-icon:hover {
     transform: scale(1.2);
 }
-.header .header__nav li:hover {
+.header > .header__nav > li:hover {
     /* color: var(--primary-color); */
     background-color: rgba(26, 45, 66, 0.4);
     animation: fadeIn .3s ease-in;
@@ -636,6 +636,7 @@
     text-align: center;
     border-radius: 100%;
     list-style: none;
+    box-shadow: 0 5px 0 #0005;
     cursor: pointer;
 }
 
@@ -673,6 +674,47 @@
     color: var(--white-color);
     font-family: -webkit-body;
 } 
+
+.footer .footer__info {
+    margin-top: -6%;
+    margin-left: 61%;
+}
+
+.footer .footer__info > span {
+    display: block;
+    font-size: 1.8rem;
+    color: rgb(241, 241, 6);
+    margin-bottom: 23px;
+}
+
+.footer .footer__info .footer__info-link {
+    margin-left: 25px;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.footer .footer__info .footer__info-link:hover {
+    color: rgb(241, 241, 6);
+}
+
+.footer .footer__info .footer__location {
+    margin-left: 27px;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    letter-spacing: 0.4;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.footer .footer__info > p > i {
+    font-size: 1.4rem;
+    color: var(--white-color);
+}
+
 
 /* animation */
 @keyframes fadeIn {
