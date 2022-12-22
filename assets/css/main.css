@@ -174,11 +174,11 @@
 .wrapper__content .content__desc .content__detail::after {
     content: "";
     display: block;
-    width: calc(100% - 55px);
+    width: calc(100% - 42px);
     border: 1px solid #ececec;
     position: absolute;
     bottom: -4px;
-    left: 38px;
+    left: 23px;
 }
 
 .wrapper__content .content__desc .content__entry {
